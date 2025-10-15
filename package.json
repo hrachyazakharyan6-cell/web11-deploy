@@ -1,0 +1,11 @@
+{
+  "name": "web11-deploy",
+  "version": "1.0.0",
+  "main": "web11.js",
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1",
+    "node-fetch": "2.6.7"
+  }
+}
