@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-export PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+#!/bin/bash
 node web11.js
