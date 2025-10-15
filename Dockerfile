@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y \
     fonts-liberation libpangocairo-1.0-0 libxss1 --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
 
+# Install Node dependencies
+RUN npm install
+
 # Install Playwright browsers
 RUN npx playwright install --with-deps
 
