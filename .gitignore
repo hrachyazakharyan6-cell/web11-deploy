@@ -1,0 +1,4 @@
+.config/
+*.bak
+*.old
+*.log
